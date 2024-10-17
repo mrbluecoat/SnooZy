@@ -21,6 +21,9 @@ This app does NOT manage any other phone functionalities, such as WiFi, Bluetoot
 ## Galaxy Nexus Ghost Charging
 Some Samsung Galaxy Nexus devices randomly detect a power connection without any charger being actually connected to the phone. This would drain the battery because of the screen turning on to display the "Charging" message, multiple times per hour till screen timeout. 
 
+## Newer Android OS versions
+SnooZy may not work on newer Android OS versions. As an alternative, you could either use [LineageOS Wake on Plug](https://review.lineageos.org/c/LineageOS/android_packages_apps_Settings/+/336049/6) or the [Screen & Notifications Dimmer](https://play.google.com/store/apps/details?id=com.github.ericytsang.screenfilter.app.android) app.
+
 Forums reporting this bug:
 
 * [Galaxy Nexus battery/charging problem?][link_forum_6]
@@ -37,8 +40,6 @@ SnooZy Charger was developed as a (partial) software solution for this issue: it
 * [Website][link_snoozy_website]
 * [Privacy policy][link_snoozy_privacy]
 * [SnooZy Charger on Google Play][link_snoozy_playstore]
-
-[![Android app on Google Play][img_playstore_badge]][link_snoozy_playstore]
 
 ## Credits
 
