@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SnooZy/SnooZy.iml" filepath="$PROJECT_DIR$/SnooZy/SnooZy.iml" />
       <module fileurl="file://$PROJECT_DIR$/SnooZyProject.iml" filepath="$PROJECT_DIR$/SnooZyProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SnooZy/SnooZyProject.SnooZy.iml" filepath="$PROJECT_DIR$/.idea/modules/SnooZy/SnooZyProject.SnooZy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SnooZy/SnooZyProject.SnooZy.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/SnooZy/SnooZyProject.SnooZy.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SnooZy/SnooZyProject.SnooZy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SnooZy/SnooZyProject.SnooZy.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SnooZy/SnooZyProject.SnooZy.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/SnooZy/SnooZyProject.SnooZy.unitTest.iml" />
     </modules>
   </component>
 </project>

@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "22.0.1"
 
     defaultConfig {
         applicationId "ca.mudar.snoozy"
@@ -10,9 +9,6 @@ android {
         targetSdkVersion 22
         versionCode 8
         versionName "1.5.4"
-
-        resConfigs "en", "fr", "nb", "ru", "tr", "th"
-        resConfigs "nodpi", "mdpi", "hdpi", "xhdpi", "xxhdpi", "xxxhdpi"
     }
     buildTypes {
         release {
@@ -23,12 +19,16 @@ android {
     lintOptions {
         abortOnError false
     }
+    namespace 'ca.mudar.snoozy'
+    buildFeatures {
+        buildConfig true
+    }
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:22.2.0'
-    compile 'com.android.support:appcompat-v7:22.2.0'
-    compile 'com.android.support:cardview-v7:22.2.0'
-    compile 'com.android.support:recyclerview-v7:22.2.0'
-    compile 'com.tonicartos:superslim:0.4.13'
+    implementation 'com.android.support:support-v4:22.2.0'
+    implementation 'com.android.support:appcompat-v7:22.2.0'
+    implementation 'com.android.support:cardview-v7:22.2.0'
+    implementation 'com.android.support:recyclerview-v7:22.2.0'
+    implementation 'com.tonicartos:superslim:0.4.13'
 }
