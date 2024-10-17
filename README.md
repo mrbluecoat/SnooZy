@@ -19,10 +19,7 @@ This app can be useful to save battery when using a **solar charger**, where pow
 This app does NOT manage any other phone functionalities, such as WiFi, Bluetooth, GPS, etc. There are other apps for that…
 
 ## Galaxy Nexus Ghost Charging
-Some Samsung Galaxy Nexus devices randomly detect a power connection without any charger being actually connected to the phone. This would drain the battery because of the screen turning on to display the "Charging" message, multiple times per hour till screen timeout. 
-
-## Newer Android OS versions
-SnooZy may not work on newer Android OS versions. As an alternative, you could either use [LineageOS Wake on Plug](https://review.lineageos.org/c/LineageOS/android_packages_apps_Settings/+/336049/6) or the [Screen & Notifications Dimmer](https://play.google.com/store/apps/details?id=com.github.ericytsang.screenfilter.app.android) app.
+Some Samsung Galaxy Nexus devices randomly detect a power connection without any charger being actually connected to the phone. This would drain the battery because of the screen turning on to display the "Charging" message, multiple times per hour till screen timeout.
 
 Forums reporting this bug:
 
@@ -34,6 +31,9 @@ Forums reporting this bug:
 * [Galaxy Nexus - Screen keeps turning on when it's locked][link_forum_3]
 
 SnooZy Charger was developed as a (partial) software solution for this issue: it saves battery consumption by turning off the display on these phantom connections, if the user is not currently using the phone. However, it does not fix the random detections. Some hardware solutions are suggested by users reporting this issue.
+
+## Incompatible with newer Android OS versions
+SnooZy may not work on newer Android OS versions. As an alternative, you could either use [LineageOS Wake on Plug](https://review.lineageos.org/c/LineageOS/android_packages_apps_Settings/+/336049/6) or the [Screen & Notifications Dimmer](https://play.google.com/store/apps/details?id=com.github.ericytsang.screenfilter.app.android) app.
 
 ## Links
 
