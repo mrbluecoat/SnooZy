@@ -23,7 +23,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../SnooZy/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../SnooZy/build" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 22 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 35, extension level 13 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
